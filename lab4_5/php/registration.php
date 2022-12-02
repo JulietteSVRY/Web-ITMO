@@ -112,7 +112,7 @@ else{
             echo '<script> alert("Ошибка в поле логина")</script>';
         }
         else{
-            if (strlen($password)>15 || !preg_match('[0-9]+', $password)){
+            if (strlen($password)>15){
                echo '<script> alert("Ошибка в поле пароля")</script>';
             }
             else{
@@ -125,12 +125,9 @@ else{
 
 
 
-if (array_key_exists('register',$_POST)){
-    if ($isAlright==true){
-        header("Location: home.php");
-        echo '<script> alert("До сюда дошло")</script>';
-    }
-
+if ($isAlright==true){
+    header("Location: home.php");
+    echo '<script> alert("До сюда дошло")</script>';
 }
 
 
