@@ -6,7 +6,7 @@ session_start();
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Lab 1:Menu</title>
+    <title>Lab 5:Menu</title>
     <link rel="stylesheet" href="styles/stylemenu.css?v=2">
 </head>
 <body>
